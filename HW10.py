@@ -3,7 +3,7 @@
 #Assignment: HW10
 import random
 
-#1. Print "Hello World!"
+#1.print("Hello world")
 print("Hello world")
 #2. Create 3 variables that each randomly generate a number between 1 and 10, named A, B, and C.
 A = random.randint(1, 10)
