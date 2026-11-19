@@ -9,7 +9,7 @@ import random
 #"Hello World!" at the end.t("Hello World!")t("Hello World!")
 
 #2. Create a while loop that prints only even numbers between 1 and 30 (HINT: modulo).
-num = 1
+ num = 1
 while num <= 30:
     if num % 2 == 0:  # Modulo checks if the remainder is 0
         print(num)

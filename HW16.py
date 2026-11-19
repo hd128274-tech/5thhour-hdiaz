@@ -34,12 +34,11 @@ else:
 
 print(f"Rounded result: {rounded_result} (which is {parity})")
 #6. Create a list of five different random integers between 1 and 10.
-rint("\n--- Steps 6 to 9 ---")
+print("\n--- Steps 6 to 9 ---")
 # #6. Create a list of 5 random integers between 1 and 10
 random_list = ['random'.randint(1, 10) for _ in range(5)]
 print(f"Initial random list: {random_list}"
 #7. Print the 4th number in the list.
-print(f"The 4th number in the list is: {random_list[3]}")
 #8. Append another integer to the end of the list, also random from 1 to 10.
 random_list.append('random'.randint(1, 10))
 print(f"List after appending a 6th number: {random_list}")
